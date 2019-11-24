@@ -1,0 +1,168 @@
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('overwrite.css');
+
+
+/* ==== additional style for bootstrap ==== */
+.well.well-primary, .bg-primary, .box-primary {
+	background: #009cea;
+	color:#fff;
+}
+.well.well-success, .bg-success, .box-success {
+	background: #7cbb00;
+	color:#fff;
+}
+.well.well-warning, .bg-warning, .box-warning {
+	background: #ffbb00;
+	color:#fff;
+}
+.well.well-danger, .bg-danger, .box-danger  {
+	background: #f65314;
+	color:#fff;
+}
+
+iframe, embed, object {
+	border:none;
+}
+
+.video-container,.embed-container 	{ position:relative; margin:0 0 15px 0;	padding-bottom:300px; padding-top:30px; height:0; overflow:hidden; border:1px solid #ccc; }
+.video-container iframe,
+.embed-container iframe,
+.map-container iframe,
+.map-container object,
+.map-container embed,
+.embed-container object,
+.embed-container embed,
+.video-container object,
+.video-container embed 					{ position:absolute; top:0; left:0; width:100%; height:100%; }
+
+#google-map {
+  height: 315px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  display: inline-block;
+  padding-left: 18px;
+  padding-bottom: 0;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-left: 10px solid #000;
+}
+
+.container{
+	padding: 0 20px 0 20px;
+}
+
+.row{
+	margin-bottom:40px;
+}
+
+.row .row, .row-fluid .row{
+	margin-bottom:0;
+}
+
+header{
+	position:relative;
+}
+
+.navbar {
+	padding:20px 0 20px;
+}
+
+.navbar .nav {
+  margin: 10px 0 0 0;
+
+}
+
+.navbar .nav > li > a {
+  float: none;
+  color: #fff;
+	line-height:1em;
+  text-decoration: none;
+  text-shadow:none;
+   z-index:100;
+	outline:0;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  text-decoration: none;
+  color:#fff;
+  background-color: transparent;
+  -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+          border-radius: 25px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.navbar .nav > .current {
+  color:#fff;
+  -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+          border-radius: 25px;
+}
+
+.navbar .nav > .current a:focus, .navbar .nav > .current a:hover  {
+  color:#fff;
+}
+
+.navbar .nav li.dropdown > a:hover .caret {
+  text-shadow: none;
+}
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+  text-shadow: none;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  color: #fff;
+  background-color: #cc3333;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #ffffff;
+  text-shadow:none;
+  text-decoration: none;
+}
+
+ul.nav li ul.dropdown-menu {
+	margin-top:20px;
+}
+
+.default {
+	background:url(../img/nav-default-bg.png) repeat;
+}
+
+.fixed {
+  position: fixed;
+  background:#2f3040;
+  top:0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0 40px #222;
+  -webkit-box-shadow: 0 0 40px #222;
+  -moz-box-shadow: 0 0 40px #222;
+}
+
+nav select {
+	display:none;
+}
