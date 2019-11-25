@@ -314,3 +314,44 @@ form.bs-docs-example {
   margin: 10px;
   display: inline-block;
 }
+
+/* Tooltips */
+.bs-docs-tooltip-examples {
+  text-align: center;
+  margin: 0 0 10px;
+  list-style: none;
+}
+.bs-docs-tooltip-examples li {
+  display: inline;
+  padding: 0 10px;
+}
+
+/* Popovers */
+.bs-docs-example-popover {
+  padding-bottom: 24px;
+  background-color: #f9f9f9;
+}
+.bs-docs-example-popover .popover {
+  position: relative;
+  display: block;
+  float: left;
+  width: 260px;
+  margin: 20px;
+}
+
+/* scroll to top */
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    display:none;
+    text-indent:-9999px;
+    background: url(../img/totop.png) no-repeat;
+}
+
+.scrollup:hover {
+	opacity:1;
+}
