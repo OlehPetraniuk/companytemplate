@@ -1067,3 +1067,80 @@ img.pull-left{
 .social-links li a:hover {
 	text-decoration:none;
 }
+
+/* ===================== Components ==========================*/
+
+/* demo class */
+.demobutton a {
+	margin-bottom:10px;
+}
+
+
+/* tab */
+.nav-tabs {
+	margin:0;
+}
+.nav-tabs > li > a {
+	font-weight:bold;
+}
+.tab-content {
+	border:1px solid #ddd;
+	border-top:none;
+	padding: 10px;
+
+}
+
+/* accordion */
+
+.accordion-heading {
+	background:#f8f8f8;
+}
+
+.accordion-heading a {
+	font-weight:bold;
+	color:#444;
+}
+.accordion-heading a:hover {
+	text-decoration:none;
+}
+.accordion-heading {
+  	border-bottom: 0;
+}
+
+.accordion-heading .accordion-toggle {
+  	display: block;
+  	padding: 8px 15px;
+	text-decoration: none;
+}
+
+.accordion-heading .accordion-toggle i {
+  	margin-right: 10px;
+}
+
+.accordion-heading .active{
+	background:#fff;
+}
+
+
+.accordion-toggle {
+  	cursor: pointer;
+}
+
+.accordion-inner {
+  	padding: 9px 15px;
+  	border-top: 1px solid #eee;
+}
+
+/* Align center */
+.aligncenter{
+	margin:0 auto;
+	text-align:center;
+}
+
+.aligncenter i {
+	text-align:center;
+}
+
+.aligncenter img, img.aligncenter{
+	margin-bottom:20px;
+}
