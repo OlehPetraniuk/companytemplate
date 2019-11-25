@@ -355,3 +355,51 @@ form.bs-docs-example {
 .scrollup:hover {
 	opacity:1;
 }
+
+/* progress bar */
+
+.bar.bar80 {
+	width:80%;
+}
+.bar.bar70 {
+	width:70%;
+}
+.bar.bar65 {
+	width:65%;
+}
+.bar.bar60 {
+	width:60%;
+}
+.bar.bar55 {
+	width:55%;
+}
+.bar.bar50 {
+	width:50%;
+}
+.bar.bar45 {
+	width:45%;
+}
+.bar.bar40 {
+	width:40%;
+}
+.bar.bar40 {
+	width:40%;
+}
+.bar.bar35 {
+	width:35%;
+}
+.bar.bar30 {
+	width:30%;
+}
+.bar.bar25 {
+	width:25%;
+}
+.bar.bar20 {
+	width:20%;
+}
+.bar.bar15 {
+	width:15%;
+}
+.bar.bar10 {
+	width:10%;
+}
