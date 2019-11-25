@@ -542,3 +542,41 @@ ul.the-icons {
     font-size: 54px;
     line-height: 60px;
 }
+/* ================= featured ========================== */
+
+section#featured {
+	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	position:relative;
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:140px 0 30px;
+}
+
+@media (min-width: 1024px) {
+	section#featured {
+		background-attachment: fixed;
+	}
+}
+
+section#featured  {
+	text-align:center;
+}
+section#featured h2  {
+	color:#fff;
+	font-size:64px;
+}
+
+section#featured .inner-heading h2 {
+	margin-bottom:-20px;
+}
+
+section#featured h4.subtitle  {
+	font-family: Arial, Tahoma, Verdana, Sans-serif;
+	text-transform:none;
+	color:#f8f8f8;
+}
+
+section#featured p  {
+	color:#f8f8f8;
+}
