@@ -1048,3 +1048,22 @@ footer .verybottom {
 img.pull-left{
 	margin:0 20px 20px 0;
 }
+
+/* social links */
+.social-links {
+	list-style:none;
+	margin:0;
+	margin-bottom:20px;
+}
+.social-links li {
+	display:inline;
+}
+.social-links li a {
+	margin:0;
+}
+.social-links li {
+	margin:0;
+}
+.social-links li a:hover {
+	text-decoration:none;
+}
