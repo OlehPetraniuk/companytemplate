@@ -1336,3 +1336,155 @@ img.pull-left{
    	text-shadow: 0px 0px 2px #444, 1px 1px 4px rgba(0,0,0,0.7);
  }
 }
+
+/* ==== media screen queries ==== */
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.navbar-inner {
+		width:100%;
+	}
+	#topnav .navbar-inner .container .logo {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+	}
+	.default {
+	position: fixed;
+	background:#2a2a2a;
+	top:0;
+	left: 0;
+	width: 100%;
+	}
+
+	#sequence-theme #sequence {
+		padding-right:40px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.navbar-inner {
+		width:100%;
+	}
+	.navbar-inner .container {
+	width:100%;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	.default {
+	position: fixed;
+	background:#2a2a2a;
+	width: 100%;
+	padding-right:20px;
+	}
+
+	.fixed {
+	position: fixed;
+	background:#2a2a2a;
+	top:0;
+	left: 0;
+	width: 100%;
+		padding-right:20px;
+	box-shadow: 0 0 40px #222;
+	-webkit-box-shadow: 0 0 40px #222;
+	-moz-box-shadow: 0 0 40px #222;
+	}
+
+	#topnav .navbar-inner .container .logo {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+	}
+
+	div nav ul {
+		display:none;
+	}
+	nav ul li {
+		display:none;
+	}
+    nav select {
+      display: block;
+	  width:50%;
+	  float:right;
+	  margin-bottom:20px;
+	  color:#111;
+	  margin-top:20px;
+	  margin-right:20px;
+	  line-height:30px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+		font-size:14px;
+    }
+
+    nav select  a {
+		line-height:1.5em;
+    }
+
+#sequence-theme #sequence {
+	width:80%;
+  min-height: 400px;
+	padding-right:40px;
+}
+#sequence ul li h4.subtitle {
+	display:none;
+}
+#sequence ul li img {
+	margin-top:30px;
+}
+	.well.box {
+		margin-bottom:20px;
+	}
+
+	ul.filter li {
+		margin-bottom:10px;
+	}
+	.tweet span {
+		line-height:1.5em;
+	}
+
+}
+
+
+@media (max-width: 480px) {
+
+    nav select {
+    display: inline-block;
+	  width:85%;
+	  float:none;
+	  margin:20px;
+	  color:#111;
+	  line-height:30px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+		font-size:14px;
+	}
+
+section#featured{
+	padding:180px 0 20px;
+}
+
+#sequence-theme #sequence {
+  min-height: 300px;
+  padding-right:40px;
+}
+
+#sequence ul li h4.subtitle {
+	display:none;
+}
+
+.section {
+	padding:180px 0 40px 0;
+}
+
+	ul.filter li {
+		margin-bottom:10px;
+	}
+
+	.tweet span {
+		line-height:1.5em;
+	}
+}
