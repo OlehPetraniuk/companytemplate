@@ -970,3 +970,39 @@ ul.contact-list li label{
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
 }
+
+/* ================= bottom ========================== */
+
+section#bottom {
+	background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:40px 0 30px;
+}
+
+@media (min-width: 1024px) {
+	section#bottom {
+		background-attachment: fixed;
+	}
+}
+
+/* twitter */
+.tweet {
+	overflow:hidden;
+	padding:10px;
+	color:#fff;
+	font-size:34px;
+}
+
+.tweet ul {
+	list-style:none;
+}
+
+#bottom .icon-twitter {
+	color:#fff;
+}
+
+.tweet .tweet_time a:hover {
+	text-decoration:none;
+}
